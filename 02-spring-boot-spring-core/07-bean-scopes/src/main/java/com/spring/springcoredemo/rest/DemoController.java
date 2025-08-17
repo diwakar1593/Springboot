@@ -30,6 +30,7 @@ public class DemoController {
 
     @GetMapping("/check")
     public String check(){
-        return "Comparing beans: myCoach == anotherCoach, " + (myCoach == anotherCoach); // in case of protype scope return false else in case of singleton scope retun true.
+        // in case of protype scope return false else in case of singleton scope retun true.
+        return "Comparing beans: myCoach == anotherCoach, " + (myCoach == anotherCoach);
     }
 }
