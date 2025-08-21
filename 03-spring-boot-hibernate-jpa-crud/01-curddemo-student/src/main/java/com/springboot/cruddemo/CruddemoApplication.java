@@ -40,9 +40,7 @@ public class CruddemoApplication {
 
         //delete the student
         int studentId = 8;
-
         System.out.println("Deleting student id: " + studentId);
-
         studentDAO.delete(studentId);
     }
 
